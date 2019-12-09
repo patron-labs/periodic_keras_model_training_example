@@ -12,10 +12,10 @@ services:
         depends_on:
           - mongodb
 
-    scheduler:
-        container_name: scheduler
+    trainer:
+        container_name: trainer
         restart: always
-        build: ./scheduler
+        build: trainer
         volumes:
           - ./ml_models:/home/ml_models
         depends_on:
