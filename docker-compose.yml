@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+    api:
+        container_name: api
+        restart: always
+        build: ./api
+        ports:
+          - "8000:8000"
+        volumes:
+          - ./ml_models:/home/ml_models 
+        depends_on:
+          - mongodb
+
+    scheduler:
+        container_name: scheduler
+        restart: always
+        build: ./scheduler
+        volumes:
+          - ./ml_models:/home/ml_models
+        depends_on:
+          - mongodb
+
+    mongodb:
+        image: mongo:latest
+        container_name: "mongodb"
+        volumes:
+          - ./data:/data/db
+        ports:
+            - 27017:27017
