@@ -22,4 +22,4 @@ docker-compose up --build -d
 
 ## Explanation:
 
-Please check this medium post. 
+Please check [this](https://medium.com/patron-ai/deploying-keras-model-to-production-by-periodic-training-37842eb8e84e) medium post. 
