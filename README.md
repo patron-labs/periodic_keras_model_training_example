@@ -10,7 +10,7 @@ docker-compose
 
 ## Installation:
 
-git clone https://github.com/patron-labs/periodic_keras_model_training_example
+`git clone https://github.com/patron-labs/periodic_keras_model_training_example
 
 cd periodic_keras_model_training_example
 
@@ -18,7 +18,7 @@ mkdir data
 
 mkdir ml_models
 
-docker-compose up --build -d
+docker-compose up --build -d`
 
 ## Explanation:
 
