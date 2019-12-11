@@ -2,13 +2,13 @@
 
 This code presents an approach to train keras models periodically which make your predictions always trained by latest dataset.
 
-##Requirements
+## Requirements
 
 docker 
 
 docker-compose
 
-##Installation:
+## Installation:
 
 git clone https://github.com/patron-labs/periodic_keras_model_training_example
 
@@ -20,6 +20,6 @@ mkdir ml_models
 
 docker-compose up --build -d
 
-##Explanation:
+## Explanation:
 
-Please check this medium post. 
+Please check [this](https://medium.com/patron-ai/deploying-keras-model-to-production-by-periodic-training-37842eb8e84e) medium post. 
