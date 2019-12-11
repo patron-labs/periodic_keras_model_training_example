@@ -22,6 +22,9 @@ mkdir ml_models
 docker-compose up --build -d
 ```
 
-## Explanation:
+## Documentation:
 
 Please check [this](https://medium.com/patron-ai/deploying-keras-model-to-production-by-periodic-training-37842eb8e84e) medium post. 
+
+You can import keras_model_deploy_example.json to insomnia-rest and postman. 
+
