@@ -26,5 +26,5 @@ docker-compose up --build -d
 
 Please check [this](https://medium.com/patron-ai/deploying-keras-model-to-production-by-periodic-training-37842eb8e84e) medium post. 
 
-You can import keras_model_deploy_example.json to insomnia-rest and postman. 
+You can import keras_model_deploy_example.json to insomnia-rest and postman to test endpoints in api service.
 
